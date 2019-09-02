@@ -33,6 +33,8 @@ export default class Index extends Component {
                 <StatusBar barStyle="light-content" backgroundColor="#000848" hidden={false} animated={true}/>
                 {/* 根据导航，进行imageBackground组件的切换 */}
                 {
+
+                    // 这里使用三元运算符，在js代码内双斜线注释方式可用
                     currentIndex == 0 ? 
                     <Throws /> :
                     currentIndex == 1 ?
